@@ -1,0 +1,24 @@
+<header id="navbar" class="header">
+    <div class="container grid">
+        <div class="col-md-4 flex">
+            <a href="/" class="nav-a {% if page.url == '/' %} active {% endif %}">Main</a>
+        </div>
+        <div class="col-md-6 flex">
+            <ul class="large-screen-nav">
+                <li>
+                    <a href="{{'/articles' | relative_url}}" class="nav-a {% if page.url == '/articles' %} active {% endif %}">Articles</a>
+                </li>
+                <li>
+                    <a href="{{'/notes' | relative_url}}" class="nav-a {% if page.url == '/notes' %} active {% endif %}">Notes</a>
+                </li>
+                <li>
+                    <a href="{{'/now' | relative_url}}" class="nav-a {% if page.url == '/now' %} active {% endif %}">Now</a>
+                </li>
+            </ul>
+            <span class="small-screen-nav mobile-nav-toggler">
+                <i class="fa fa-bars"></i>
+                <!-- fa fa-close -->
+            </span>
+        </div>
+    </div>
+</header>

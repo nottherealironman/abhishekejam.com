@@ -1,0 +1,24 @@
+---
+layout: default
+title:  "Abhishek Ejam | Articles"
+permalink: /articles
+---
+
+{% assign sorted_articles = site.articles | sort: 'date' | reverse  %}
+<section class="article-block dark-bg mtb-150">
+  {% for article in sorted_articles %}
+  <a href="{{ article.url | relative_url }}">
+      <div class="container grid">
+          <div class="mi-content">
+              <h1>{{ article.title }}</h1>
+              <p class="time-n-date">{{ article.date | date: "%b %-d, %Y" }}</p>
+              <p class="keywords">{{ article.tags }}</p>
+              <p class="desc mt-20">
+                {% assign excerptParts = article.excerpt | split: "<!-- start_excerpt -->" %}
+                {{ excerptParts[1] | strip_newlines | truncatewords: 40 }} ..Read more
+              </p> 
+          </div>
+      </div>
+  </a>
+  {% endfor %}
+</section>
