@@ -40,6 +40,10 @@ collections:
   articles:
     output: true
     permalink: /:collection/:path/
+  
+  notes:
+    output: true
+    permalink: /:collection/:path/
 
 excerpt_separator: <!-- excerpt-end -->
 

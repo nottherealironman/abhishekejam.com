@@ -772,11 +772,11 @@ div.active-code > code {
     font-size: var(--font-sm);
 }
 
-.anchor {
+a {
     color: var(--secondary-dark-color) !important;
 }
 
-.anchor:hover {
+a:hover {
     color: var(--light-color) !important;
 }
 

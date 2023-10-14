@@ -1,0 +1,24 @@
+---
+layout: default
+title: Abhishek Ejam | Notes
+permalink: /notes
+---
+
+{% assign sorted_notes = site.notes | sort: 'date' | reverse  %}
+<section class="article-block dark-bg mtb-150">
+    {% for note in sorted_notes %}
+    <a href="{{ note.url | relative_url }}">
+        <div class="container grid">
+            <div class="mi-content">
+                <h1>{{ note.title }}</h1>
+                <p class="time-n-date">{{ note.date | date: "%b %-d, %Y" }}</p>
+                <p class="keywords">{{ note.tags }}</p>
+                <p class="desc mt-20">
+                    {% assign excerptParts = note.excerpt | split: "<!-- start_excerpt -->" %}
+                    {{ excerptParts[1] | strip_newlines | truncatewords: 30 }} ..Read more
+                </p> 
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</section>
