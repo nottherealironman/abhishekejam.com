@@ -5,8 +5,8 @@ date: 2022-09-23
 tags: ["AWS", ", Natgateway", ", Private subnet"]
 ---
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
+        
             <h1>{{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
 			<!-- start_excerpt -->
@@ -63,7 +63,7 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 
 <h5>Inbound rules</h5>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>Type</td>
@@ -84,7 +84,7 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 
 <h5>Outbound rules</h5>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>Type</td>
@@ -113,7 +113,7 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 
 <h5>Inbound rules</h5>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>Type</td>
@@ -134,7 +134,7 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 
 <h5>Outbound rules</h5>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>Type</td>
@@ -157,7 +157,7 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 
 <h5>Inbound rules</h5>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>#Rule</td>
@@ -190,14 +190,14 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 
 <h5>Outbound rules</h5>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>#Rule</td>
 			<td>Type</td>
 			<td>Protocol</td>
 			<td>Port range</td>
-			<td>Destination</td>
+			<td>Dest</td>
 			<td>Allow/Deny</td>
 		</tr>
 		<tr>
@@ -249,6 +249,5 @@ tags: ["AWS", ", Natgateway", ", Private subnet"]
 <p>&nbsp;</p>
 
 <h3>&nbsp;</h3>
-        </div>
     </div>
 </section>

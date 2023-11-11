@@ -6,8 +6,8 @@ tags: ["Javascript", ", Clean code", ", Design pattern"]
 ---
 
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
+        
             <h1>{{ page.title }}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
             <h4>Background</h4>
@@ -269,6 +269,5 @@ tags: ["Javascript", ", Clean code", ", Design pattern"]
 <p>You can find the source code of the above todo app in my <a class="anchor" href="https://github.com/nottherealironman/namespace-using-object-literal" target="_blank">GitHub</a> repository.</p>
 
 <p>If you have any questions, feel free to <a class="anchor" href="mailto:ejam.abhishek@gmail.com">get in touch</a> with me.</p>
-        </div>
     </div>
 </section>

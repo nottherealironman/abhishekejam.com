@@ -5,8 +5,8 @@ date: 2022-01-16
 tags: ["Problem solving", ", Coding", ", Refactring", ", Visualization"]
 ---
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
+        
             <h1>{{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
             <!-- start_excerpt -->
@@ -32,6 +32,5 @@ tags: ["Problem solving", ", Coding", ", Refactring", ", Visualization"]
 <p>Problem solving process by itself is a daunting task. Rather then beating youself up when things don't go your way, it's a good idea to&nbsp;lay out the problem solving steps by having a clear intention of what you want first with visualization. Then try to make it work without worrying how to make it right. Refactoring&nbsp;or cleaning up can be done afterwards. Lastly, don't forget to be easy and kind&nbsp;with yourself.<br>
 <br>
 <em>Happy coding!</em></p>
-        </div>
     </div>
 </section>

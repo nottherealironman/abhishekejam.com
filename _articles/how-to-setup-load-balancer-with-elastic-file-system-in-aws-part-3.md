@@ -5,8 +5,7 @@ date: 2022-05-14
 tags: ["Cloud computing", ", Cloud services", ", AWS", ", Load balancing"]
 ---
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
             <h1>{{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
 			
@@ -126,6 +125,5 @@ tags: ["Cloud computing", ", Cloud services", ", AWS", ", Load balancing"]
 <p><a class="anchor" href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html" target="_blank">https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html</a></p>
 
 <p><a class="anchor" href="https://serverfault.com/questions/68753/does-each-server-behind-a-load-balancer-need-their-own-ssl-certificate" target="_blank">https://serverfault.com/questions/68753/does-each-server-behind-a-load-balancer-need-their-own-ssl-certificate</a></p>
-        </div>
     </div>
 </section>
