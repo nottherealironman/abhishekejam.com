@@ -89,6 +89,10 @@ code, pre {
     font-size: var(--font-sm);
 }
 
+code, a {
+    overflow-wrap: break-word;
+}
+
 /* Colors definition */
 
 .main-container.dark-bg {
@@ -114,8 +118,8 @@ code, pre {
 
 .main-container {
     min-height: 105vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 #navbar .container {
@@ -345,7 +349,7 @@ div .hide {
     align-items: start;
 }
 
-.article-block .mi-content {
+.article-block {
     width: 90%;
 }
 
@@ -385,6 +389,14 @@ div .hide {
     font-size: var(--font-md);
 }
 
+.article-detail-block h3,
+.article-detail-block h4,
+.article-detail-block h5,
+.article-detail-block table,
+.article-detail-block p  {
+    justify-self: left;
+}
+
 .article-detail-block img {
     width: 100%;
 }
@@ -407,8 +419,8 @@ div.active-code > code {
 
 /* Now CSS - START */
 
-.now-block .mi-nw-content, .article-detail-block .grid .mi-content {
-    width: 50%;
+.now-block .mi-nw-content, .article-detail-block .grid {
+    width: 40%;
 }
 
 .now-block ul li span, .now-block ul li a {
@@ -437,6 +449,10 @@ div.active-code > code {
 .footer-block .branch {
     position: absolute;
     left: 6%;
+}
+
+.article-detail-block .content-wrapper {
+    max-width: 680px;
 }
 
 /* 404 error */
@@ -514,7 +530,7 @@ div.active-code > code {
     }
 
     .container {
-        width: 70%;
+        width: 80%;
     }
 
     h1 {
@@ -599,13 +615,13 @@ div.active-code > code {
     }
 
     /* Articles */
-    .article-block .mi-content {
+    .article-block {
         width: 100%;
     }
 
     /* Now */
-    .now-block .mi-nw-content, .article-detail-block .grid .mi-content {
-        width: 100%;
+    .now-block .mi-nw-content, .article-detail-block .grid {
+        width: 85%;
     }
 
     /* Footer */
@@ -623,6 +639,10 @@ div.active-code > code {
     
     .footer-block .branch {
         position: static;
+    }
+
+    td {
+        font-size: 14px;
     }
 }
 
@@ -704,7 +724,7 @@ div.active-code > code {
         z-index: 1;
     }
 
-    /* .article-block .mi-content {
+    /* .article-block {
         width: 70%;
     } */
 
@@ -740,7 +760,7 @@ div.active-code > code {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    overflow: auto;
+    /* overflow: auto; */
     padding:0 40px;
     position: relative;
     /* left: 5%; */
@@ -758,7 +778,7 @@ div.active-code > code {
 
 .grid-1 {
     grid-template-columns: 1fr;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 .flex {
@@ -919,3 +939,5 @@ a:hover {
 .ls-1 {
     letter-spacing: 1px;
 }
+
+/* Table styles */
