@@ -5,8 +5,8 @@ date: 2022-02-27
 tags: ["Cloud computing", ", Cloud services", ", AWS"]
 ---
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
+        
             <h1>{{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
             <!-- start_excerpt -->
@@ -59,6 +59,5 @@ All right, let's get started.</p>
 
 <p>Configuring application load balancer in AWS can be&nbsp;quite a challenging task if you don't have much experience in cloud services.&nbsp;The basic terminalogies in the above article may help to understand a bit about the moving wheels on configuring load balancer. In addition, the architecture diagram of the load balancer with EFS configuration can help to grasp a clear picture of the whole process. I hope this article was helpful.<br>
 See you in the next series of configuring load balancer.</p>
-        </div>
     </div>
 </section>

@@ -5,8 +5,7 @@ date: 2022-06-19
 tags: ["Cloud computing", ", Cloud services", ", AWS", ", Load balancing", ", EFS"]
 ---
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
             <h1> {{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
 			
@@ -32,7 +31,7 @@ tags: ["Cloud computing", ", Cloud services", ", AWS", ", Load balancing", ", EF
 
 <p>In the AWS management console, search EFS on the search bar and click on the link to Elastic File System dashboard. Then click on the <strong><em>Create file system</em></strong> button on the top right. Give a meaningful name to the file system and select the VPC that we’ve created in the <a class="anchor" href="https://abhishekejam.com/articles/how-setup-load-balancer-elastic-file-system-efs-aws-part-2/" style="text-decoration:none" target="_blank">second article</a>. Leave the default option as <strong><em>Regional</em></strong> for the Availability and durability section as it’ll store the EFS in multiple availability zones. We’re good to go now so click on the Create button.</p>
 
-<p><img src="/assets/images/create-efs.png" style="height:562px; width:602px"></p>
+<p><img src="/assets/images/create-efs.png"></p>
 
 <p>&nbsp;</p>
 
@@ -82,7 +81,7 @@ tags: ["Cloud computing", ", Cloud services", ", AWS", ", Load balancing", ", EF
 
 <p>On the selected EFS, click on the <strong><em>Network</em></strong> tab at the bottom and click on the Manage button. Now, copy the security group ID and open the EC2 management console and click on the <strong><em>Security Group</em></strong> link under <strong><em>Network and Security</em></strong> section. Search for the security group associated with EFS and edit its inbound rule.</p>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>Type</td>
@@ -105,7 +104,7 @@ tags: ["Cloud computing", ", Cloud services", ", AWS", ", Load balancing", ", EF
 
 <p>Similarly on the security groups associated with EC2 instances, add the following outbound rule.</p>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 		<tr>
 			<td>Type</td>
@@ -151,6 +150,5 @@ Thanks and Happy coding!</p>
 <a class="anchor" href="https://stackoverflow.com/questions/52558062/auto-mounting-efs-on-ec2-instance" target="_blank">https://stackoverflow.com/questions/52558062/auto-mounting-efs-on-ec2-instance</a><br>
 <a class="anchor" href="https://levelup.gitconnected.com/mount-nfs-on-aws-ec2-using-elastic-file-system-efs-57282d3c27eb" target="_blank">https://docs.aws.amazon.com/efs/latest/ug/troubleshooting-efs-mounting.html</a><br>
 <a class="anchor" href="https://docs.aws.amazon.com/efs/latest/ug/troubleshooting-efs-mounting.html" target="_blank">https://docs.aws.amazon.com/efs/latest/ug/troubleshooting-efs-mounting.html</a></p>
-        </div>
     </div>
 </section>

@@ -6,8 +6,7 @@ tags: ["Shell programming", ", Bash", ", Linux"]
 ---
 
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
             <h1>{{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
             <p class="desc mt-20">
@@ -197,6 +196,5 @@ tags: ["Shell programming", ", Bash", ", Linux"]
             </p>
 
             <p class="keywords">Shell programming, Bash, Linux</p>
-        </div>
     </div>
 </section>

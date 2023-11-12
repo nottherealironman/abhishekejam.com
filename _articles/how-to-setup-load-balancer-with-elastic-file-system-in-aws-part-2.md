@@ -5,8 +5,8 @@ date: 2022-04-18
 tags: ["Cloud computing", ", Cloud services", ", AWS", ", VPC", ", Subnets"]
 ---
 <section class="article-detail-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-content">
+    <div class="container content-wrapper">
+        
             <h1>{{page.title}}</h1>
             <p class="time-n-date">5 min read. {{ page.date | date: "%b %-d, %Y" }}</p>
             <!-- start_excerpt -->
@@ -56,6 +56,5 @@ tags: ["Cloud computing", ", Cloud services", ", AWS", ", VPC", ", Subnets"]
 <h3>Wrapping up</h3>
 
 <p>The steps to create VPC and subnets are quite straightforward&nbsp;on the AWS management console. In addition, AWS provides a fancy real-time visualization of subnets with associated route tables and network connections while creating VPC.&nbsp;</p>
-        </div>
     </div>
 </section>
