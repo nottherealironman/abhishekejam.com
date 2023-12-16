@@ -778,7 +778,7 @@ div.active-code > code {
 
 .grid-1 {
     grid-template-columns: 1fr;
-    /* justify-items: center; */
+    justify-items: center;
 }
 
 .flex {
