@@ -4,9 +4,8 @@ layout: default
 permalink: /now
 ---
 
-<section class="now-block dark-bg mtb-150">
-    <div class="container grid grid-1">
-        <div class="mi-nw-content">
+<section class="now-block dark-bg mtb-150 min-ht">
+    <div class="container content-wrapper">
             <h2>What I’m doing these days</h2>
             <h3 class="mt-20">Reading</h3>
             <ul>
@@ -34,6 +33,5 @@ permalink: /now
             </ul>
             <p class="font-sm">Last updated: September 29, 2023</p>
             <p class="font-sm">This page is inspired by <a class="anchor" href="https://harrycresswell.com/now/" target="_blank">Harry Cresswell</a></p>
-        </div>
     </div>
 </section>

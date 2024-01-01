@@ -451,7 +451,8 @@ div.active-code > code {
     left: 6%;
 }
 
-.article-detail-block .content-wrapper {
+.article-detail-block .content-wrapper,
+.now-block .content-wrapper {
     max-width: 680px;
 }
 
@@ -617,6 +618,10 @@ div.active-code > code {
     /* Articles */
     .article-block {
         width: 100%;
+    }
+
+    .main-container .min-ht {
+        min-height: 75vh;
     }
 
     /* Now */
@@ -940,4 +945,6 @@ a:hover {
     letter-spacing: 1px;
 }
 
-/* Table styles */
+.min-ht {
+    min-height: 65vh;
+}

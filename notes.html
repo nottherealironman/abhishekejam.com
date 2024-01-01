@@ -5,7 +5,7 @@ permalink: /notes
 ---
 
 {% assign sorted_notes = site.notes | sort: 'date' | reverse  %}
-<section class="article-block dark-bg mtb-150">
+<section class="article-block dark-bg mtb-150 min-ht">
     {% for note in sorted_notes %}
     <a href="{{ note.url | relative_url }}">
         <div class="container grid">
