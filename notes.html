@@ -8,7 +8,7 @@ permalink: /notes
 <section class="article-block dark-bg mtb-150 min-ht">
     {% for note in sorted_notes %}
     <a href="{{ note.url | relative_url }}">
-        <div class="container grid">
+        <div class="container">
             <div class="mi-content">
                 <h1>{{ note.title }}</h1>
                 <p class="time-n-date">{{ note.date | date: "%b %-d, %Y" }}</p>

@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <section class="intro-block dark-bg mt-150">
-  <div class="container grid">
+  <div class="container home grid">
       <div class="mi-img">
           <img src="/assets/images/profile.jpg" alt="Abhishek Ejam profile photo"/>
       </div>
@@ -20,7 +20,7 @@ permalink: /
   </div>
 </section>
 <section class="skills-block dark-bg mtb-80">
-  <div class="container">
+  <div class="container home">
       <h3>Things I can help you with</h3>
       <div class="grid mt-40">
           <div class="flex">
@@ -54,7 +54,7 @@ permalink: /
   </div>
 </section>
 <section class="story-block dark-bg mtb-80">
-  <div class="container grid">
+  <div class="container home grid">
       <div class="mi-description">
           <h3>About me</h3>
           <p class="mt-20 ls-1">
